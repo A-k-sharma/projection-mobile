@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/banner.jpg");
+    position: relative;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.left {
+    text-align: left;
+    padding: 15px;
+    padding-left: 5px;
+    width: 70%;
+    float: left;
+    font-size: 15px;
+}
+
+.left a {
+    padding-left: 15%;
+    color: white;
+    text-decoration: none;
+}
+.right {
+    width: 20%;
+    text-align: right;
+    padding: 10px;
+    display: inline-block;
+    height: 50px;
+}
+a{
+    padding-right: 15px;
+    text-decoration: none;
+    color: white;
+}
+.right {
+    width: 20%;
+    text-align: right;
+    padding: 10px;
+    display: inline-block;
+    height: 50px;
+}
+
+
+
+.menu .right a .fa {
+    float: right;
+    display: block;
+}
+
+.menu .right.responsive {
+    position: relative;
+    display: inline-block;
+}
+.menu .right.responsive a{
+    display: inline-block;
+}
+.menu .right .responsive .fa {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.menu .right.responsive a {
+    /*float: right;*/
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+}
+.icon{
+    display: block;
+    top: 15px;
+    right: 45px;
+    position: absolute;
+}
+
+.menu .right a .fa {
+    float: right;
+    display: block;
+}
+nav a:not(:last-child) {
+    display: none;
+}
+
+.menu .right.responsive {
+    position: relative;
+    display: inline-block;
+}
+.menu .right.responsive a{
+    display: inline-block;
+}
+.menu .right .responsive .fa {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.menu .right.responsive a {
+    /*float: right;*/
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+}
+.icon{
+    display: block;
+    top: 15px;
+    right: 45px;
+    position: absolute;
+}
+
+.menu:after {
+    content: "";
+    background-color: white;
+    width: 90%;
+    height: 1px;
+    left: 50%;
+    top: 60px;
+    position: absolute;
+    transform: translate(-50%);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    padding-top: 50px;
+}
+
+.head-middle {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.head-middle span {
+
+    text-align: center;
+    color: white;
+    padding: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border: none;
+    display: block;
+}
+
+.head-middle span:last-child {
+    border: none;
+}
+
+.fas {
+    color: green;
+    font-size: 25px;
+}
+
+button {
+    text-align: center;
+    background-color: transparent;
+    color: green;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.mid {
+    text-align: center;
+}
+
+.mid div {
+    padding: 50px;
+    padding-bottom: 15px;
+    display: block;
+    width: 100%;
+}
+
+.mid img {
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.mid div p {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+
+.write-us {
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 20px;
+}
+
+.write-us form {
+    display: block;
+    width: 100%;
+}
+
+.write-us p {
+    text-align: left;
+}
+
+.write-us form input:last-child {
+    text-align: center;
+}
+
+.inp {
+    width: 100%;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: transparent;
+    border: 2px solid white;
+    outline: none;
+    display: block;
+}
+
+.write-us form div {
+    padding: 10px;
+    background-color: green;
+    display: block;
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: transparent;
+    border: 2px solid white;
+    height: 100px;
+
+}
+
+.write-us form .text-area {
+    width: 100%;
+}
+
+.btn {
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 8px;
+    outline: none;
+    width: 40%;
+    margin-left: 25px;
+}
+
+::placeholder {
+    color: white;
+    text-align: left;
+    padding: 5px;
+}
+
+/*-----------------------------------------------------------*/
+@media screen and (max-device-width: 768px) and (min-device-width: 450px){
+    .mid div{
+        display: block;
+        width: 100%;
+    }
+    header nav a{
+        display: none;
+    }
+    nav a:last-child{
+        display: block;
+    }
+    nav a{
+        padding-right: 15px;
+        text-decoration: none;
+        color: white;
+        display: none;
+    }
+    nav a:not(:last-child) {
+        display: inline-block;
+    }
+    .menu .right a .fa {
+        float: right;
+        display: block;
+    }
+
+    .menu .right.responsive {
+        position: relative;
+        display: inline-block;
+    }
+    .menu .right.responsive a{
+        display: inline-block;
+    }
+    .menu .right .responsive .fa {
+        position: absolute;
+        right: 0;
+        top: 20px;
+    }
+
+    .menu.responsive a {
+        /*float: right;*/
+        display: inline-block;
+        text-align: center;
+        width: 100px;
+    }
+    .icon{
+        display: block;
+        top: 125px;
+        right: 100px;
+        position: absolute;
+
+    }
+
+    .mid div p{
+        width: 50%;
+        margin: auto;
+        padding: 10px;
+    }
+    .mid div{
+        padding-bottom: 15px;
+        display: block;
+        width: 100%;
+    }
+    .write-us form{
+        display: block;
+        width: 100%;
+    }
+    .write-us form div{
+        display: block;
+        width: 100%;
+    }
+    textarea{
+        height: 100px;
+    }
+    .btn{
+        width: 25%;
+        margin-left: 75px;
+    }
+}
+@media only screen and (min-device-width: 769px)
+{
+    .left{
+        width: 50%;
+        float: left;
+    }
+
+
+    nav a:not(:last-child) {
+        display: inline-block;
+    }
+
+    nav a:last-child{
+        display: none;
+    }
+
+    .right{
+         padding: 20px;
+         width: 50%;
+         margin: auto;
+        padding-right: 60px;
+     }
+
+    .head-middle span{
+        display: inline-block;
+    }
+
+    .mid div{
+        display: inline-block;
+        width: 40%;
+        margin: auto;
+    }
+    .write-us form{
+        width: 60%;
+        margin: auto;
+        text-align: justify;
+    }
+    .write-us form div{
+        width: 45%;
+        display: inline-block;
+    }
+    .btn{
+        width: 150px;
+        margin-left: 350px;
+    }
+}
